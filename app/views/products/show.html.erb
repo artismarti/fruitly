@@ -8,9 +8,9 @@
 	<%= simple_format @product.description %>
 	<div class="price">
 		<% if @product.previous_price_in_pence %>
-			Was: <%= @product.previous_price_in_pence %>
+			Was: <%= quid @product.previous_price_in_pence %>
 		<% end %>
-		<%= @product.price_in_pence %>
+		<%= quid @product.price_in_pence %>
 	</div>
 	<p>
 		<% if basket.include?(@product.id) %>
@@ -18,7 +18,7 @@
 				class: "btn btn-danger btn-large" do %>
 					<i class="icon icon-white icon-shopping-cart"></i> Remove from basket
 			<% end %>
-			
+
 			<% else %>
 	
 			<%= link_to product_basket_path(@product), method: :post, 
