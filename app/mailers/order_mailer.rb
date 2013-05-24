@@ -1,7 +1,7 @@
 class OrderMailer < ActionMailer::Base
   default from: "artismarti@gmail.com"
 
-  include ApplicationHelper
+  add_template_helper ApplicationHelper
 
   def customer(order)
     @order = order

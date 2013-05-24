@@ -15,6 +15,7 @@ class OrdersController < ApplicationController
 
       OrderMailer.admin(@order).deliver
       OrderMailer.customer(@order).deliver
+      
     else
       render "new"
     end
