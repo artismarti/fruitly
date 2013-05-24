@@ -13,3 +13,16 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+config/initializers/better_errors.rb
+public/system/products/images/000/000/001/large/apple.jpg
+public/system/products/images/000/000/001/medium/apple.jpg
+public/system/products/images/000/000/001/original/apple.jpg
+public/system/products/images/000/000/001/thumb/apple.jpg
+public/system/products/images/000/000/002/large/mango.jpg
+public/system/products/images/000/000/002/medium/mango.jpg
+public/system/products/images/000/000/002/original/mango.jpg
+public/system/products/images/000/000/002/thumb/mango.jpg
+public/system/products/images/000/000/003/large/Orange.jpg
+public/system/products/images/000/000/003/medium/Orange.jpg
+public/system/products/images/000/000/003/original/Orange.jpg
+public/system/products/images/000/000/003/thumb/Orange.jpg
