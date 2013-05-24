@@ -25,7 +25,6 @@ gem 'aws-sdk'
 
 gem 'stripe'
 
-
 gem 'kaminari'
 
 #Bootstrap
@@ -33,7 +32,11 @@ gem 'therubyracer'
 gem 'less-rails'
 gem'twitter-bootstrap-rails'
 
+gem 'rspec-rails', group: [:test, :development]
 
+group :test do
+	gem 'capybara'
+end
 
 # Gems used only for assets and not required
 # in production environments by default.

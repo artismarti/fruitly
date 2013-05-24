@@ -1,3 +1,6 @@
+Stripe.api_key = "skmwAEdh"
+STRIPE_PUBLIC_KEY = "pkQbAN1GH"
+
 Fruitly::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
