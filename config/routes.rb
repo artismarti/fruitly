@@ -1,7 +1,7 @@
 Fruitly::Application.routes.draw do
   resources :orders
   resources :products do
-    resources :basket
+    resource :basket
   end
 
   root to: "products#index"
