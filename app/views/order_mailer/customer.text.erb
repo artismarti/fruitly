@@ -1,0 +1,11 @@
+Dear <%= @order.name %>
+
+Thanks for your order! Your order number is: <%= @order.id %>.
+You bought:
+<% @order.order_products.each do |item| %>
+	<%= item.title %>
+<% end %>
+
+
+
+Love Fruitly xxx
